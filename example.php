@@ -1,9 +1,7 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+require "vendor/autoload.php";
 
-include_once "Paystack.php";
+use LoveyCom\Paystack;
 //NOTE: the returned response will be of object data type, if you want json set:
 //self::$responseIsObject = false; in Paystack.php's prepareData method.
 //Do not forget to put your app and secret keys in PaystackBaseClass.php's necessary properties.

@@ -1,5 +1,6 @@
 <?php
-require_once("Paystack.php");
+
+use LoveyCom\Paystack;
 
 $filename = "webhook_response.txt";
 $headerfile = "header.txt";
