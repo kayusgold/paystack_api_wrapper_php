@@ -1,5 +1,6 @@
 <?php
-include_once("PaystackBaseclass.php");
+
+namespace LoveyCom;
 
 class Paystack extends PaystackBaseClass
 {

@@ -1,0 +1,15 @@
+{
+    "name": "loveycom/paystack-php-wrapper",
+    "description": "This is a PHP wrapper for Paystack API",
+    "type": "library",
+    "authors": [{
+        "name": "Kayode Omolaoye",
+        "email": "kayodeomolaoye@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LoveyCom\\": "src/"
+        }
+    }
+}
